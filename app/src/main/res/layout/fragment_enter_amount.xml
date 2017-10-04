@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/edtAmount"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="80dp"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:hint="@string/enter_amount_hint_text"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btnConfirmAmount"
+        android:background="@drawable/selector_confirm_amount"
+        android:layout_below="@+id/edtAmount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/button_margin_top_large"
+        android:layout_marginLeft="@dimen/button_margin_left_large"
+        android:layout_marginRight="@dimen/button_margin_right_large"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/enter_amount_confirm_amount"
+        android:textAllCaps="false"
+        android:textSize="@dimen/button_text_medium_size"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height_medium" />
+
+
+</RelativeLayout>

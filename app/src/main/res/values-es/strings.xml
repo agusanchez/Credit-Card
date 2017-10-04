@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--App Name-->
+    <string name="app_name">CreditCard</string>
+
+    <!--Toolbar-->
+    <string name="toolbar_title">Mercado Pago</string>
+
+    <!--Progress-->
+    <string name="progress_loading">Cargando...</string>
+
+    <!--Enter Amount-->
+    <string name="enter_amount_hint_text">Ingrese un monto</string>
+    <string name="enter_amount_confirm_amount">Confirme el monto</string>
+    <string name="enter_amount_empty_field">Debe ingresar un monto.</string>
+    <string name="enter_amount_value_greater_than_zero">El primer valor no puede ser cero.</string>
+
+    <!--Payment Methods-->
+    <string name="payment_methods_amount_exceded">El monto ingresado es mayor al monto maximo permitido.</string>
+    <string name="payment_methods_amount_missing">El monto ingresado es menor al monto minimo permitido.</string>
+
+    <!--Message-->
+    <string name="message_amount">Monto:</string>
+    <string name="message_payment_method">Metodo de pago:</string>
+    <string name="message_bank">Banco:</string>
+    <string name="message_recommended">Cuotas:</string>
+
+</resources>

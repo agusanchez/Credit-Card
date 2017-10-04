@@ -1,0 +1,29 @@
+<resources>
+
+    <!--App Name-->
+    <string name="app_name">CreditCard</string>
+
+    <!--Toolbar-->
+    <string name="toolbar_title">Mercado Pago</string>
+
+    <!--Progress-->
+    <string name="progress_loading">Loading...</string>
+
+    <!--Enter Amount-->
+    <string name="enter_amount_hint_text">Enter an amount</string>
+    <string name="enter_amount_confirm_amount">Confirm amount</string>
+    <string name="enter_amount_empty_field">You must enter an amount.</string>
+    <string name="enter_amount_value_greater_than_zero">The first number cannot be zero.</string>
+
+    <!--Payment Methods-->
+    <string name="payment_methods_amount_exceded">The amount entered is greater than the maximum amount allowed</string>
+    <string name="payment_methods_amount_missing">The amount entered is less than the minimum amount allowed.</string>
+
+    <!--Message-->
+    <string name="message_amount">Amount:</string>
+    <string name="message_payment_method">Payment method:</string>
+    <string name="message_bank">Bank:</string>
+    <string name="message_recommended">Installments:</string>
+
+
+</resources>
